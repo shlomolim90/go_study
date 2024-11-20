@@ -10,6 +10,7 @@ func main() {
     //simple_module.Echo("start!")
     //simple_module.TestWaiter()
     simple_module.TestNode()
+    simple_module.TestJson()
 
     //simple_module.TestGoroutine()
     //simple_module.TestGoChannel()
