@@ -8,6 +8,9 @@ import (
 )
 
 
+// interface{} on the position of value indicates that zero methods.
+// An empty interface may hold values of any type. (Every type implements at least zero methods.)
+// Empty interfaces are used by code that handles values of unknown type.
 type Dictionary map[string]interface{}
 
 
